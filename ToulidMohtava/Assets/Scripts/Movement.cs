@@ -22,6 +22,8 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    	transform.rotation = Quaternion.Euler(0, 0, 0);
+    	
     	if(canAnimate == false)
     		movementAnimation.enabled = false;
     	else
@@ -37,6 +39,9 @@ public class Movement : MonoBehaviour
     		rb.gravityScale = 1f;
     	
     }
+    
+    
+    
     
     void OnCollisionEnter2D(Collision2D col)
     {
