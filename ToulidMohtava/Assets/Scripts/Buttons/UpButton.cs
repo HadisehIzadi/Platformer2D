@@ -1,12 +1,9 @@
-
-
-﻿using System;
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
-public class HoldClickableButton :  MonoBehaviour,IUpdateSelectedHandler,IPointerDownHandler,IPointerUpHandler
+public class UpButton : MonoBehaviour,IUpdateSelectedHandler,IPointerDownHandler,IPointerUpHandler
 {
-    public bool isPressed;
+     public bool isPressed;
     public Movement player;
     
         // Start is called before the first frame update
@@ -14,16 +11,20 @@ public class HoldClickableButton :  MonoBehaviour,IUpdateSelectedHandler,IPointe
         {
             if (isPressed)
             {
-            	player.MoveRight();
+            	player.MoveUp();
             
             }
         }
         public void OnPointerDown(PointerEventData data)
         {
             isPressed = true;
+            player.hasGravity = false;
+            player.canAnimate = true;
         }
         public void OnPointerUp(PointerEventData data)
         {
             isPressed = false;
+            player.hasGravity = true;
+             player.canAnimate = false;
         }
 }
