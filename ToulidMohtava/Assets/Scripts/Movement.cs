@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-	public float speed = 5f;
+	public float speed;
+	public float jumpSpeed;
+	public float shib;
 	public Animator movementAnimation;
 	public bool canAnimate = false;
 	public bool hasGravity = true;
+	private bool isMovingRight = false; 
+    private bool isMovingLeft = false;
+    public bool canJump = true;
 	
 	 public Rigidbody2D rb;
 	 public RuntimeAnimatorController newController;
@@ -29,14 +34,19 @@ public class Movement : MonoBehaviour
     	else
     		movementAnimation.enabled = true;
     	
-    	
-    	if(hasGravity == false)
-    	{
-			rb.gravityScale = 0f;
-			
-    	}
+    	if(transform.position.y > 0 )
+    		canJump = false;
     	else
-    		rb.gravityScale = 1f;
+    		canJump = true;
+    	
+    	
+//    	if(hasGravity == false)
+//    	{
+//			rb.gravityScale = 0f;
+//			
+//    	}
+//    	else
+//    		rb.gravityScale = 1f;
     	
     }
     
@@ -57,7 +67,12 @@ public class Movement : MonoBehaviour
     {
     	canAnimate = true;
     	//movementAnimation.enabled = true;
+    	
     	transform.position+=new Vector3(speed * Time.deltaTime , 0 , 0 );
+    	
+    	isMovingRight = true;
+        isMovingLeft = false;
+
     	
     	if(transform.localScale.x < 0 ){
 		var newScale = new Vector3(
@@ -68,11 +83,18 @@ public class Movement : MonoBehaviour
 
     		transform.localScale = newScale;}
     }
+    
+    
+    
     public void MoveLeft()
     {
     	canAnimate = true;
     	transform.position+=new Vector3(-speed * Time.deltaTime , 0 , 0 );
-    	
+
+    	isMovingLeft = true;
+        isMovingRight = false;
+        
+        
     	if(transform.localScale.x > 0 ){
 		var newScale = new Vector3(
 			                  transform.localScale.x * -1f,
@@ -88,9 +110,26 @@ public class Movement : MonoBehaviour
     public void MoveUp()
     {
     	canAnimate = true;
-    	Vector3 direction = new Vector3(0, 10*speed * Time.deltaTime, 0);
-			rb.velocity = direction * speed;
-    	//transform.position+=new Vector3(0, speed * Time.deltaTime  , 0 );
+
+
+        float smoothJump = Mathf.Lerp(rb.velocity.y, jumpSpeed , shib);
+        float directionX = 0f;
+
+
+        if (isMovingRight)
+        {
+            directionX = speed * 0.5f;       
+        }
+        else if (isMovingLeft)
+        {
+            directionX = -speed * 0.5f;
+
+        }
+
+
+        Vector3 direction = new Vector3(directionX, (smoothJump * Time.deltaTime)+ smoothJump* 1.2f, 0);
+        rb.velocity = direction;
+        if(canJump == false) return;
     }
     
     

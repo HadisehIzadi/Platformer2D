@@ -9,7 +9,7 @@ public class UpButton : MonoBehaviour,IUpdateSelectedHandler,IPointerDownHandler
         // Start is called before the first frame update
         public void OnUpdateSelected(BaseEventData data)
         {
-            if (isPressed)
+            if (isPressed && player.canJump)
             {
             	player.MoveUp();
             
