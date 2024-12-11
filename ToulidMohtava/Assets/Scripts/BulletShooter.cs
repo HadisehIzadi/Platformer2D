@@ -9,6 +9,7 @@ public class BulletShooter : MonoBehaviour
 	public Transform bulletSpawner;
 	public float bulletSpeed = 10f;
 	float scale;
+	public GameObject handHint_shoot;
 	
 	
 	// Start is called before the first frame update
@@ -26,7 +27,10 @@ public class BulletShooter : MonoBehaviour
     
 	public void Shoot()
 	{
+		
 		if (PlayerPrefs.GetInt("canShoot", 0) == 1) {
+			PlayerPrefs.SetInt("FisrtShoot" , 1);
+			handHint_shoot.SetActive(false);
 			
 
 			GameObject bullet = Instantiate(bulletPrefab, bulletSpawner.position, bulletSpawner.rotation);
