@@ -1,0 +1,4415 @@
+fileFormatVersion: 2
+guid: 7c44a8fbd45838c46bd87ac60b42c49e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_0
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1398
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bb05ad621920842a3e607d7a72ba84
+      internalID: -2014266987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_1
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1386
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6e22106ffc9a84fa90a9bcc9ebb764
+      internalID: -1338686252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_2
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1200
+        width: 270
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836757f16c41dae4db522cd7bef9f0d7
+      internalID: -1616038508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_3
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1212
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eca8fd40e8aedd4ba4bb2a646344745
+      internalID: -1722332697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_4
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1356
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9feabea166fc5648ae71764a35439fa
+      internalID: -1940006038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_5
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1350
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b82406aed63d54c994141a6c634571
+      internalID: 1387567464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_6
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1344
+        width: 36
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e6601f56ff5a148b992befd010e5ea
+      internalID: -449582223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1278
+        width: 98
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c12672c554d014f900d8194a8fc5d3
+      internalID: -411842016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1314
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c17f05e4893a38459b7191fcf573114
+      internalID: -10361013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1306
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2716f89934251ae46b37e15d4648d212
+      internalID: 1017153027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1287
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b351b9b83b40341a3dcfa85b31755a
+      internalID: 1418740565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_11
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1302
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80d7064f14eb1c409f6fe2faa9973fb
+      internalID: 2140249382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_12
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1305
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203b5583545c76744801d3d87b66ae12
+      internalID: 924691932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_13
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1290
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c712c4f5c88b948ba988489c5d6ddb
+      internalID: 1934549916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_14
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1284
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f5f95c411d2c24fa3447aaa11baee8
+      internalID: -1314769405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_15
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1284
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf98cb1b2fc4b34e94566c5815ce35f
+      internalID: 780572577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_16
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1224
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85b311ed3f2d5b4d9bb7c94161deca1
+      internalID: -1771069385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_17
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1260
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb14b9f1fe42104f989e07fa99715d2
+      internalID: -2123471490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_18
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1236
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa227a3e0833e264ebbb2e165594432a
+      internalID: 829476449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_19
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1194
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c39bfad537e0f74e908a95faff375f8
+      internalID: -1914752157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_20
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1170
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60568db6c87b621418a8f23fba8af773
+      internalID: -1077585740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_21
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 902
+        width: 108
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503837c9d568790429c264c66b32a9d4
+      internalID: -1188120624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_22
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 973
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813e8ede314d92d419c9564df0e9dc33
+      internalID: 679047209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_23
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 926
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637550a93ffa5bb41b2366e7df0d0408
+      internalID: 1191947269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_24
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 972
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06b3cc03139ac147a56c9ee2e677a9c
+      internalID: 1624508524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_25
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 977
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a2ef905b71fb84eb4b267419b2169b
+      internalID: -902828577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_26
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 971
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95ea5df0dca45046a1a4016919df7c3
+      internalID: 367171771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_27
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 887
+        width: 65
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783dfd9bb47acd84b8d1ceb482fc6eba
+      internalID: -523602889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_28
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 981
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fd0569b2bb3df449609d3c769b9296
+      internalID: -1067100586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_29
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 958
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955318428dc875445bc3354bedbb47f1
+      internalID: 2131243074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_30
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 969
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdcbda414115984d8d984045f000fe9
+      internalID: -530706473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_31
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 960
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37d669308cb7d34cb481ecad01cb63d
+      internalID: 811441197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_32
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 939
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67999a2af39cd54888a6be30531955a
+      internalID: 520750046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_33
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 972
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c6622c0d980ec4ba9af4d123d30dfb
+      internalID: 602608374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_34
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 966
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeca2a60d7ee123439662ced9961c4bb
+      internalID: 560336537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_35
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 964
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525043e6e59fb444eb7d5552aacfa161
+      internalID: 768809859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_36
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 960
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49772359230822940969a351e9746e8e
+      internalID: -1733788088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_37
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 973
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411823b9152ff1f46a3db39ac6dd67e3
+      internalID: -1666328601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_38
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 966
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a184e5b5f3003248a20fdccef0ae51c
+      internalID: -332988683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_39
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 972
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34229f1b12cc3594dac14bb5f727f031
+      internalID: 1880714936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_40
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 957
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b19b2e85da6f7547bc65dd4f5a985a3
+      internalID: -978902819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_41
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 955
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d331a37516bf549a8fdbdc4d114866
+      internalID: -1308873677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_42
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 966
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1756d276cde36f94c9cc31ac3f60bcb4
+      internalID: -1696345138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_43
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 920
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a1abb9b9624bb41ae739c439da72e0
+      internalID: -901612370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_44
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 954
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e603fa90e014b0544be78639c50ab9f6
+      internalID: -1105897792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_45
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 954
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945f757097f0fab45b98e5696a4140ea
+      internalID: -918111885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_46
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 952
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51fdbf2af150e146be0ebcbc63ade14
+      internalID: 78598052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_47
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 939
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c63277fb697b34eb3dc7f7d9ee291c
+      internalID: 193853799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_48
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 947
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabd29cd4cc2d3744b19327d5a615cb8
+      internalID: 660077943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_49
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 944
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ba704c02bed3d46a4bd9b89d3686ec
+      internalID: 2016087827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_50
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 943
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352e9628d5601a34dbd42179cb6f58aa
+      internalID: -1583700753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_51
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 930
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6998000207f354449cef966a7f1fb41
+      internalID: -245642582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_52
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 947
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e5cc68785ffd14fb9e8ba2f0601be2
+      internalID: -457884432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_53
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 936
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11602a697e5854d44a07e7c534049b08
+      internalID: 363368605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_54
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 936
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f239f91e9903e4194b11b1f62b56f3
+      internalID: 1347515967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_55
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 930
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ba65c4bd679f948a3f0f8a0880a396
+      internalID: 1678538991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_56
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 916
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3cef21708fccc499ed9ca48f41148b
+      internalID: 1499491763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_57
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 931
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef2f01ebc5cba243a5dd9759a88f3b2
+      internalID: -931734859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 936
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feacd4c9a5c92f54485878e95e5cce37
+      internalID: 1121712456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_59
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 936
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1928a7695b76449804bceb0d81a570
+      internalID: -1390514532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_60
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 905
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea896fbfead8df742bce85d457040d1b
+      internalID: -40600105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_61
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 933
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa9328b547eed64986789eb999fbdb2
+      internalID: -783254271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_62
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 912
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312a951b88ddcfc4ebfbc92e47597527
+      internalID: 1431720605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_63
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 936
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94dc25abd1b52347a7dcfb8f246e9bd
+      internalID: -178362455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_64
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 936
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1f583dd1ff75c41a9bd01d2cfede58
+      internalID: -1541992873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_65
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 934
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd73bcfaabe4a547b81470183dd5529
+      internalID: -1399915756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_66
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 636
+        width: 317
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42876435ec9d8ec4497b5a5c9753f3e7
+      internalID: -1094302345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_67
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 918
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6db8f3cec22b2b4897ddbcdb0ea69c9
+      internalID: -1148232362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_68
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 925
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3840cc690174193449ec1ecd31e10ad7
+      internalID: 1720450752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_69
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 927
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1911ff0aee2251d4ea5eb1cbd8378d4f
+      internalID: 1418594920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_70
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 911
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0615b61207a31a942a9afd7c9cb2d32d
+      internalID: 457488771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_71
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 912
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2c7107d32c86148b8535b665a28fa7
+      internalID: -291730546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_72
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 924
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d08eb0a46b75f849881ed6a70604484
+      internalID: 813523489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_73
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 925
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ed3cb4a86ed77458e6225d2c07486e
+      internalID: -1209403757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_74
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 928
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cd659e1a82f2248b775a2907f683e2
+      internalID: 1150924486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_75
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 915
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ba29d008cdd44d8842b4883f1f0e4
+      internalID: -284410921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_76
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 924
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d055348473604c40bd837c5912297d6
+      internalID: 609287783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_77
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 925
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5e9aff2195e8946bdbdcf984282847
+      internalID: 1952226879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_78
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 926
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ced45a6afde3dc4ebec0e1fe1232da9
+      internalID: -538599289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_79
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 924
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7291168605c87ee43975f237c347903a
+      internalID: 2090900784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_80
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 917
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8c728ed7c62854db0cc1a953633615
+      internalID: 288431213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_81
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 921
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d96e2fe2f059bd4b9cb2aeb9a4a3374
+      internalID: 1390582892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_82
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 684
+        width: 350
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2859207de88797448b77cc62343b757b
+      internalID: -2125673777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_83
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 908
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe1a0ac864b9784480cd07fa8feec59
+      internalID: -1077738150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_84
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 918
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a68e5350a3a484ebc96e7b07b9be04
+      internalID: 698419041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_85
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 915
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed91d9d2879c644b5c78f8a7a4f628
+      internalID: 253520498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_86
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 918
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacad30360c8d394ea76b3240e04cd74
+      internalID: -1221929268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_87
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 899
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2efc3069b63ce34ba2f7fbef41e4b06
+      internalID: -2127941081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_88
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 918
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fe800eec8f1f841a83dbd94f11c48f
+      internalID: -1695321110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_89
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 912
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551aed331cea40143984c4c4b936cde9
+      internalID: 1983555196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_90
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 762
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3046fc3268e31a74686c18d4015cb96e
+      internalID: -1542356673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_91
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 598
+        width: 375
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f080456f57df914e95612f8a76635aa
+      internalID: 1964041197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_92
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 690
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6d421be3ceca1428bb71eca8a41ca0
+      internalID: 1435396065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_93
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 696
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b30397b3234c740af30ecc68a70d1c
+      internalID: -619898987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_94
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 696
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9d5376e15a4fc48bb2cc0c5f809666
+      internalID: -1497933850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_95
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 636
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39178e02668a7f945881757ea474ab73
+      internalID: 1059741490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_96
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 678
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d673fb080e5b2499a9060e62b90f18
+      internalID: 1783031790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_97
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8672b403f2a123544babd5dee4a3c027
+      internalID: -270714867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_98
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 477
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b345401d830e9a4fbaf4af9bf619f96
+      internalID: 1728010860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_99
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 481
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ebc03dd0c2fea4893ae92fe70a4613
+      internalID: 38619753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_100
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 480
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c11ad3a5882a1b45906d95fb1cc896a
+      internalID: 1722949397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_101
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 480
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8c61d295c02b34d81f35f7f9c063d0
+      internalID: -251044612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_102
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 460
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dba600dd70e9ef4cb8b5927e3513de5
+      internalID: -1024379051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_103
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 468
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e3f37eb875fe749851c398b02c138f
+      internalID: 1859911569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_104
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 477
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac4a0c21967e0a43a86f4bb8bb96420
+      internalID: 1221814752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_105
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 457
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b2feb9de92cb14aa6a3d3ebf8bc330
+      internalID: -859723063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_106
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 477
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b862cf312b0fe443b9fcecb073caa5c
+      internalID: 1502575034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_107
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 481
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538c71c8d36f2de468574b0578fd1ad1
+      internalID: 648059093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_108
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 475
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5457c16e0759047bcf1a7ba6fa153e
+      internalID: 1869496499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_109
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 471
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c81b8a88fe4b974d89e31271af4b211
+      internalID: -2115728723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_110
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 474
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1af5757dfe225458d4b2c08854e3c8
+      internalID: -1253502607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_111
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 477
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdbb23a0c1dd36478b30010df086c69
+      internalID: -1994421697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_112
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 453
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ad18b384bf00f4db4efa5388bb449c
+      internalID: 132522822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_113
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 481
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7c8c2552a680b47831c87739c2cda9
+      internalID: 1309081138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_114
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 474
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522414eb9b5a9f94b8fd317242f857e2
+      internalID: -544315789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_115
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 474
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2914ba0b3c90b6f4a90a8663a1f3003f
+      internalID: 155360985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_116
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 473
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7683349565cd442bca6feaa231eb7f
+      internalID: 932379294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_117
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 456
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20aff7f30c92598459e65d844daf6a00
+      internalID: -621208689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_118
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 465
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62299d6313d3a8c4f80681e0567055cf
+      internalID: 1324905417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_119
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 464
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6888db4c2cbfd408a38320fe28a361
+      internalID: -282465898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_120
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 456
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b099651badf51a48844abc80acf0b16
+      internalID: 733198309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_121
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 474
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd46b2e739db032429ec56515cffb3f2
+      internalID: -1274721176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_122
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 468
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43391a2e5552ad54eab5fccb7ae314d0
+      internalID: 680198096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_123
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 463
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14dbc00280be364caa51fd3e5d2c494
+      internalID: -1547740119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_124
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 463
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b06672c685052458c8ded7ab946fb4
+      internalID: -1152471292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_125
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 468
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd53032bc861eb04198253b5c1e8af28
+      internalID: -2120967738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_126
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 450
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af0c437cdea35c4991851e4cd164c9b
+      internalID: 1288965931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_127
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 472
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881499c79b2476f4b859d20021f2be63
+      internalID: 1978582540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_128
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 476
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f790dfed811aa594086b56a00644c3dd
+      internalID: 873666755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_129
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 474
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06be1903d057ab4084fdb3feab516bc
+      internalID: 421240151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_130
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 460
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f062d7e5d70029649b8951f39e948ac7
+      internalID: 489591418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_131
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 470
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cf48b9bd1e54045a49a17a65e89675
+      internalID: -1263110513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_132
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 465
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaf303d3348439459da8216e764eb7d
+      internalID: -623118054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_133
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 384
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105ad56843d0be44cac7f0ad259d24a7
+      internalID: 541348711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_134
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 462
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1539ce94317c0409f1a6adaa80c21d
+      internalID: -1700465917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_135
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 461
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a54ac18383149742a0902dc01e644b2
+      internalID: 1485394265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_136
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 459
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a9258859ae43a489ccad309cdc7563
+      internalID: 1456589967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_137
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 472
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1251c7086c09cc54290a5fbb81b0a5dc
+      internalID: 1377981249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_138
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 462
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501984ae0ada7745a7e3851bb8799a2
+      internalID: -2028632325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_139
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 438
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b6865d555b58c4985356baf874d848
+      internalID: 343437124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_140
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 464
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b30a3b28662c3640883fd6137d0a11e
+      internalID: -147909921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 397
+        width: 107
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a591749f84115f4e89d9c2f192b5e54
+      internalID: -2125411520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_142
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 462
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b933656893d7b40ade300d58e9acd8
+      internalID: -1417805228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_143
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 464
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e5bebf0689d6d4b909db93ca6ef4f6
+      internalID: 198644086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_144
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 457
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb92d904cd2c474aaa7376c4837a221
+      internalID: -1033657203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_145
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 464
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4d4e0d50476144ba09112bb93b6864
+      internalID: -518900273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_146
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 463
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49039241a5ab9bf4babc93d509d15ddd
+      internalID: 1254998553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_147
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 456
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb67fb283a4c0c14ba950b31229f53d8
+      internalID: -1551951879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_148
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 462
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b506835a983b42945bf2b92d3fe6970a
+      internalID: 1508614492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_149
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 462
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f768caff591ce42b60223be8b0ea87
+      internalID: 99629256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_150
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 456
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891df693f8014a34c9f7d777324d683d
+      internalID: -1916648632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_151
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 457
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30146068b1ab2e4c9311fde62ac21ff
+      internalID: -569176864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_152
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 457
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8828d8d1c5c50440b9034a4d790fc90
+      internalID: 1152768755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_153
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 454
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1206450a6e43f43b752fd2ca44978d
+      internalID: 1255531821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_154
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 456
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27732fe28224aa044ac74a75340e0f99
+      internalID: 849668869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_155
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 432
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6905d1ce78108974b9cf4e3161b03979
+      internalID: -533964848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_156
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 444
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f5a099d575265428bc825e0dd96fd8
+      internalID: -173643114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_157
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 457
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b59e683d05ea6e4f8a3ba1fb13d04bf
+      internalID: 1983056581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_158
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 450
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fa456625f49ef40836603f5e956d9c
+      internalID: 584643075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_159
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 428
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca3e8863478dbf47921a706ba3cab28
+      internalID: 1127671686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_160
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 450
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f3b89d2e8e75549b19eb87d79d65c5
+      internalID: -2052393235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_161
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 432
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcab59b983c41b47ac157f301e7c28c
+      internalID: -2034151674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_162
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 446
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1edd20bbab827c40808c840c1fd42e1
+      internalID: 553522148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_163
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 444
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb670a9bdaea41488e50aa6306c861d
+      internalID: -320700834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_164
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 443
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f565c90a11e21a845a7df0d1a45581b7
+      internalID: -141822919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_165
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 445
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edebe9bd150a1064b80373495ee34712
+      internalID: 158763077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_166
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 443
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddee2a890474924ca26649dccc99b44
+      internalID: -520836856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_167
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 443
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437c5729a6f009244bdbced68ea78ab0
+      internalID: 1849079858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_168
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 444
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98057b6ee7eb2944beda2c092319b48
+      internalID: 1488619621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_169
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1
+        width: 383
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de50ca30fc2ff1c4baefaec73a97c89c
+      internalID: 316860610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_170
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 436
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b984ba48578ab34aa166e9207368a32
+      internalID: -641046032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_171
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 426
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c978af1832718744be7958ee3d90187
+      internalID: 609007350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_172
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 426
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6481cbbb743e06429ab7aec944d1e58
+      internalID: 1467238524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_173
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 391
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea58e7e1844aaa449abcd76421bdcde
+      internalID: 1367534103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_174
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 408
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9f034f31aaaa141884075cfcadb72f
+      internalID: -1436711341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_175
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 414
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18175a5ce2a82847bad1341659d4f6f
+      internalID: -1288143609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_176
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 420
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a8ec068fe8a634ba94977a9cbc9e0c
+      internalID: 1577648375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_177
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 414
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2545eabcbfa01419b2c90221acfbfa
+      internalID: 116171354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_178
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 264
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d6addc3a0cd4f40a0ca7ea1ecbb9b9
+      internalID: -97885802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_179
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1
+        width: 379
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a68910a2ab2d1645b37c197524f5ae4
+      internalID: -252066704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_180
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 264
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4285f1ec25ecd494894eef5f61604450
+      internalID: 798653256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_181
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 263
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca17165e4e4a64f4ab6d9f9797fa59d1
+      internalID: 768384675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_182
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 180
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35694333e7cd29e45a9dfc4d6865412a
+      internalID: 242751062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_183
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 240
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcb9150d0737ce48a333b8b2c58bf6e
+      internalID: 1822886747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_184
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 226
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ec1405fe566594aa1b040679d758eb
+      internalID: 1844776270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_185
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 192
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde4d28d2b709824d975386aab2b4c68
+      internalID: 524525520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_186
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 180
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a81da18e87b962418171fedfff6dbda
+      internalID: -1035250168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_187
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 222
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a38ae9c9d30c84c9ac944432a4775e
+      internalID: -1427657239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_188
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e367e0e02f473b4d8f0b5a57a6b48ad
+      internalID: 1997043563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_189
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 169
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650a305f8737db54bbc378494d94aff2
+      internalID: -490791419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_190
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 162
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd79fd839ca93a4997ebabe63377edd
+      internalID: 608150068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_191
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 170
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906fa33cd69813b409b5966840cc60a3
+      internalID: 1197459468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_192
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 149
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f83c229af9ae4f93f2b73bd120937
+      internalID: 975083929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - 13 Days In Hell - Blood Spatter_193
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33da1a3d3a023ea43949884a3bb2607d
+      internalID: 743993720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - 13 Days In Hell - Blood Spatter_11: 2140249382
+      PC Computer - 13 Days In Hell - Blood Spatter_33: 602608374
+      PC Computer - 13 Days In Hell - Blood Spatter_87: -2127941081
+      PC Computer - 13 Days In Hell - Blood Spatter_146: 1254998553
+      PC Computer - 13 Days In Hell - Blood Spatter_85: 253520498
+      PC Computer - 13 Days In Hell - Blood Spatter_152: 1152768755
+      PC Computer - 13 Days In Hell - Blood Spatter_105: -859723063
+      PC Computer - 13 Days In Hell - Blood Spatter_114: -544315789
+      PC Computer - 13 Days In Hell - Blood Spatter_126: 1288965931
+      PC Computer - 13 Days In Hell - Blood Spatter_134: -1700465917
+      PC Computer - 13 Days In Hell - Blood Spatter_84: 698419041
+      PC Computer - 13 Days In Hell - Blood Spatter_18: 829476449
+      PC Computer - 13 Days In Hell - Blood Spatter_173: 1367534103
+      PC Computer - 13 Days In Hell - Blood Spatter_63: -178362455
+      PC Computer - 13 Days In Hell - Blood Spatter_135: 1485394265
+      PC Computer - 13 Days In Hell - Blood Spatter_23: 1191947269
+      PC Computer - 13 Days In Hell - Blood Spatter_131: -1263110513
+      PC Computer - 13 Days In Hell - Blood Spatter_138: -2028632325
+      PC Computer - 13 Days In Hell - Blood Spatter_49: 2016087827
+      PC Computer - 13 Days In Hell - Blood Spatter_119: -282465898
+      PC Computer - 13 Days In Hell - Blood Spatter_3: -1722332697
+      PC Computer - 13 Days In Hell - Blood Spatter_149: 99629256
+      PC Computer - 13 Days In Hell - Blood Spatter_89: 1983555196
+      PC Computer - 13 Days In Hell - Blood Spatter_65: -1399915756
+      PC Computer - 13 Days In Hell - Blood Spatter_113: 1309081138
+      PC Computer - 13 Days In Hell - Blood Spatter_166: -520836856
+      PC Computer - 13 Days In Hell - Blood Spatter_46: 78598052
+      PC Computer - 13 Days In Hell - Blood Spatter_147: -1551951879
+      PC Computer - 13 Days In Hell - Blood Spatter_43: -901612370
+      PC Computer - 13 Days In Hell - Blood Spatter_129: 421240151
+      PC Computer - 13 Days In Hell - Blood Spatter_139: 343437124
+      PC Computer - 13 Days In Hell - Blood Spatter_42: -1696345138
+      PC Computer - 13 Days In Hell - Blood Spatter_55: 1678538991
+      PC Computer - 13 Days In Hell - Blood Spatter_124: -1152471292
+      PC Computer - 13 Days In Hell - Blood Spatter_6: -449582223
+      PC Computer - 13 Days In Hell - Blood Spatter_36: -1733788088
+      PC Computer - 13 Days In Hell - Blood Spatter_47: 193853799
+      PC Computer - 13 Days In Hell - Blood Spatter_73: -1209403757
+      PC Computer - 13 Days In Hell - Blood Spatter_83: -1077738150
+      PC Computer - 13 Days In Hell - Blood Spatter_57: -931734859
+      PC Computer - 13 Days In Hell - Blood Spatter_101: -251044612
+      PC Computer - 13 Days In Hell - Blood Spatter_81: 1390582892
+      PC Computer - 13 Days In Hell - Blood Spatter_122: 680198096
+      PC Computer - 13 Days In Hell - Blood Spatter_68: 1720450752
+      PC Computer - 13 Days In Hell - Blood Spatter_182: 242751062
+      PC Computer - 13 Days In Hell - Blood Spatter_25: -902828577
+      PC Computer - 13 Days In Hell - Blood Spatter_52: -457884432
+      PC Computer - 13 Days In Hell - Blood Spatter_93: -619898987
+      PC Computer - 13 Days In Hell - Blood Spatter_123: -1547740119
+      PC Computer - 13 Days In Hell - Blood Spatter_172: 1467238524
+      PC Computer - 13 Days In Hell - Blood Spatter_14: -1314769405
+      PC Computer - 13 Days In Hell - Blood Spatter_50: -1583700753
+      PC Computer - 13 Days In Hell - Blood Spatter_144: -1033657203
+      PC Computer - 13 Days In Hell - Blood Spatter_148: 1508614492
+      PC Computer - 13 Days In Hell - Blood Spatter_45: -918111885
+      PC Computer - 13 Days In Hell - Blood Spatter_102: -1024379051
+      PC Computer - 13 Days In Hell - Blood Spatter_80: 288431213
+      PC Computer - 13 Days In Hell - Blood Spatter_170: -641046032
+      PC Computer - 13 Days In Hell - Blood Spatter_72: 813523489
+      PC Computer - 13 Days In Hell - Blood Spatter_31: 811441197
+      PC Computer - 13 Days In Hell - Blood Spatter_185: 524525520
+      PC Computer - 13 Days In Hell - Blood Spatter_150: -1916648632
+      PC Computer - 13 Days In Hell - Blood Spatter_48: 660077943
+      PC Computer - 13 Days In Hell - Blood Spatter_70: 457488771
+      PC Computer - 13 Days In Hell - Blood Spatter_162: 553522148
+      PC Computer - 13 Days In Hell - Blood Spatter_17: -2123471490
+      PC Computer - 13 Days In Hell - Blood Spatter_143: 198644086
+      PC Computer - 13 Days In Hell - Blood Spatter_121: -1274721176
+      PC Computer - 13 Days In Hell - Blood Spatter_167: 1849079858
+      PC Computer - 13 Days In Hell - Blood Spatter_34: 560336537
+      PC Computer - 13 Days In Hell - Blood Spatter_44: -1105897792
+      PC Computer - 13 Days In Hell - Blood Spatter_168: 1488619621
+      PC Computer - 13 Days In Hell - Blood Spatter_158: 584643075
+      PC Computer - 13 Days In Hell - Blood Spatter_130: 489591418
+      PC Computer - 13 Days In Hell - Blood Spatter_153: 1255531821
+      PC Computer - 13 Days In Hell - Blood Spatter_58: 1121712456
+      PC Computer - 13 Days In Hell - Blood Spatter_103: 1859911569
+      PC Computer - 13 Days In Hell - Blood Spatter_41: -1308873677
+      PC Computer - 13 Days In Hell - Blood Spatter_92: 1435396065
+      PC Computer - 13 Days In Hell - Blood Spatter_32: 520750046
+      PC Computer - 13 Days In Hell - Blood Spatter_99: 38619753
+      PC Computer - 13 Days In Hell - Blood Spatter_37: -1666328601
+      PC Computer - 13 Days In Hell - Blood Spatter_22: 679047209
+      PC Computer - 13 Days In Hell - Blood Spatter_136: 1456589967
+      PC Computer - 13 Days In Hell - Blood Spatter_97: -270714867
+      PC Computer - 13 Days In Hell - Blood Spatter_180: 798653256
+      PC Computer - 13 Days In Hell - Blood Spatter_193: 743993720
+      PC Computer - 13 Days In Hell - Blood Spatter_28: -1067100586
+      PC Computer - 13 Days In Hell - Blood Spatter_16: -1771069385
+      PC Computer - 13 Days In Hell - Blood Spatter_110: -1253502607
+      PC Computer - 13 Days In Hell - Blood Spatter_160: -2052393235
+      PC Computer - 13 Days In Hell - Blood Spatter_39: 1880714936
+      PC Computer - 13 Days In Hell - Blood Spatter_69: 1418594920
+      PC Computer - 13 Days In Hell - Blood Spatter_175: -1288143609
+      PC Computer - 13 Days In Hell - Blood Spatter_29: 2131243074
+      PC Computer - 13 Days In Hell - Blood Spatter_189: -490791419
+      PC Computer - 13 Days In Hell - Blood Spatter_156: -173643114
+      PC Computer - 13 Days In Hell - Blood Spatter_164: -141822919
+      PC Computer - 13 Days In Hell - Blood Spatter_30: -530706473
+      PC Computer - 13 Days In Hell - Blood Spatter_62: 1431720605
+      PC Computer - 13 Days In Hell - Blood Spatter_128: 873666755
+      PC Computer - 13 Days In Hell - Blood Spatter_74: 1150924486
+      PC Computer - 13 Days In Hell - Blood Spatter_5: 1387567464
+      PC Computer - 13 Days In Hell - Blood Spatter_118: 1324905417
+      PC Computer - 13 Days In Hell - Blood Spatter_78: -538599289
+      PC Computer - 13 Days In Hell - Blood Spatter_154: 849668869
+      PC Computer - 13 Days In Hell - Blood Spatter_79: 2090900784
+      PC Computer - 13 Days In Hell - Blood Spatter_145: -518900273
+      PC Computer - 13 Days In Hell - Blood Spatter_54: 1347515967
+      PC Computer - 13 Days In Hell - Blood Spatter_184: 1844776270
+      PC Computer - 13 Days In Hell - Blood Spatter_1: -1338686252
+      PC Computer - 13 Days In Hell - Blood Spatter_19: -1914752157
+      PC Computer - 13 Days In Hell - Blood Spatter_187: -1427657239
+      PC Computer - 13 Days In Hell - Blood Spatter_178: -97885802
+      PC Computer - 13 Days In Hell - Blood Spatter_165: 158763077
+      PC Computer - 13 Days In Hell - Blood Spatter_111: -1994421697
+      PC Computer - 13 Days In Hell - Blood Spatter_116: 932379294
+      PC Computer - 13 Days In Hell - Blood Spatter_59: -1390514532
+      PC Computer - 13 Days In Hell - Blood Spatter_10: 1418740565
+      PC Computer - 13 Days In Hell - Blood Spatter_94: -1497933850
+      PC Computer - 13 Days In Hell - Blood Spatter_9: 1017153027
+      PC Computer - 13 Days In Hell - Blood Spatter_100: 1722949397
+      PC Computer - 13 Days In Hell - Blood Spatter_12: 924691932
+      PC Computer - 13 Days In Hell - Blood Spatter_161: -2034151674
+      PC Computer - 13 Days In Hell - Blood Spatter_163: -320700834
+      PC Computer - 13 Days In Hell - Blood Spatter_82: -2125673777
+      PC Computer - 13 Days In Hell - Blood Spatter_67: -1148232362
+      PC Computer - 13 Days In Hell - Blood Spatter_77: 1952226879
+      PC Computer - 13 Days In Hell - Blood Spatter_155: -533964848
+      PC Computer - 13 Days In Hell - Blood Spatter_38: -332988683
+      PC Computer - 13 Days In Hell - Blood Spatter_106: 1502575034
+      PC Computer - 13 Days In Hell - Blood Spatter_112: 132522822
+      PC Computer - 13 Days In Hell - Blood Spatter_183: 1822886747
+      PC Computer - 13 Days In Hell - Blood Spatter_108: 1869496499
+      PC Computer - 13 Days In Hell - Blood Spatter_176: 1577648375
+      PC Computer - 13 Days In Hell - Blood Spatter_35: 768809859
+      PC Computer - 13 Days In Hell - Blood Spatter_133: 541348711
+      PC Computer - 13 Days In Hell - Blood Spatter_174: -1436711341
+      PC Computer - 13 Days In Hell - Blood Spatter_24: 1624508524
+      PC Computer - 13 Days In Hell - Blood Spatter_53: 363368605
+      PC Computer - 13 Days In Hell - Blood Spatter_64: -1541992873
+      PC Computer - 13 Days In Hell - Blood Spatter_181: 768384675
+      PC Computer - 13 Days In Hell - Blood Spatter_4: -1940006038
+      PC Computer - 13 Days In Hell - Blood Spatter_188: 1997043563
+      PC Computer - 13 Days In Hell - Blood Spatter_90: -1542356673
+      PC Computer - 13 Days In Hell - Blood Spatter_159: 1127671686
+      PC Computer - 13 Days In Hell - Blood Spatter_13: 1934549916
+      PC Computer - 13 Days In Hell - Blood Spatter_191: 1197459468
+      PC Computer - 13 Days In Hell - Blood Spatter_0: -2014266987
+      PC Computer - 13 Days In Hell - Blood Spatter_86: -1221929268
+      PC Computer - 13 Days In Hell - Blood Spatter_141: -2125411520
+      PC Computer - 13 Days In Hell - Blood Spatter_171: 609007350
+      PC Computer - 13 Days In Hell - Blood Spatter_91: 1964041197
+      PC Computer - 13 Days In Hell - Blood Spatter_8: -10361013
+      PC Computer - 13 Days In Hell - Blood Spatter_88: -1695321110
+      PC Computer - 13 Days In Hell - Blood Spatter_157: 1983056581
+      PC Computer - 13 Days In Hell - Blood Spatter_169: 316860610
+      PC Computer - 13 Days In Hell - Blood Spatter_104: 1221814752
+      PC Computer - 13 Days In Hell - Blood Spatter_190: 608150068
+      PC Computer - 13 Days In Hell - Blood Spatter_151: -569176864
+      PC Computer - 13 Days In Hell - Blood Spatter_27: -523602889
+      PC Computer - 13 Days In Hell - Blood Spatter_192: 975083929
+      PC Computer - 13 Days In Hell - Blood Spatter_60: -40600105
+      PC Computer - 13 Days In Hell - Blood Spatter_140: -147909921
+      PC Computer - 13 Days In Hell - Blood Spatter_96: 1783031790
+      PC Computer - 13 Days In Hell - Blood Spatter_179: -252066704
+      PC Computer - 13 Days In Hell - Blood Spatter_71: -291730546
+      PC Computer - 13 Days In Hell - Blood Spatter_2: -1616038508
+      PC Computer - 13 Days In Hell - Blood Spatter_56: 1499491763
+      PC Computer - 13 Days In Hell - Blood Spatter_75: -284410921
+      PC Computer - 13 Days In Hell - Blood Spatter_109: -2115728723
+      PC Computer - 13 Days In Hell - Blood Spatter_98: 1728010860
+      PC Computer - 13 Days In Hell - Blood Spatter_20: -1077585740
+      PC Computer - 13 Days In Hell - Blood Spatter_117: -621208689
+      PC Computer - 13 Days In Hell - Blood Spatter_137: 1377981249
+      PC Computer - 13 Days In Hell - Blood Spatter_177: 116171354
+      PC Computer - 13 Days In Hell - Blood Spatter_7: -411842016
+      PC Computer - 13 Days In Hell - Blood Spatter_125: -2120967738
+      PC Computer - 13 Days In Hell - Blood Spatter_95: 1059741490
+      PC Computer - 13 Days In Hell - Blood Spatter_127: 1978582540
+      PC Computer - 13 Days In Hell - Blood Spatter_120: 733198309
+      PC Computer - 13 Days In Hell - Blood Spatter_26: 367171771
+      PC Computer - 13 Days In Hell - Blood Spatter_107: 648059093
+      PC Computer - 13 Days In Hell - Blood Spatter_51: -245642582
+      PC Computer - 13 Days In Hell - Blood Spatter_66: -1094302345
+      PC Computer - 13 Days In Hell - Blood Spatter_61: -783254271
+      PC Computer - 13 Days In Hell - Blood Spatter_115: 155360985
+      PC Computer - 13 Days In Hell - Blood Spatter_15: 780572577
+      PC Computer - 13 Days In Hell - Blood Spatter_142: -1417805228
+      PC Computer - 13 Days In Hell - Blood Spatter_132: -623118054
+      PC Computer - 13 Days In Hell - Blood Spatter_76: 609287783
+      PC Computer - 13 Days In Hell - Blood Spatter_21: -1188120624
+      PC Computer - 13 Days In Hell - Blood Spatter_186: -1035250168
+      PC Computer - 13 Days In Hell - Blood Spatter_40: -978902819
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

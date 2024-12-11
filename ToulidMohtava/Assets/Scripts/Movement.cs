@@ -13,9 +13,14 @@ public class Movement : MonoBehaviour
 	private bool isMovingRight = false; 
     private bool isMovingLeft = false;
     public bool canJump = true;
+    private bool isGrounded = false;
+  
 	
 	 public Rigidbody2D rb;
 	 public RuntimeAnimatorController newController;
+	 
+	 public GameObject hand_RightButton;
+	public GameObject hand_GunButton;
 	 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +62,9 @@ public class Movement : MonoBehaviour
     {
     	if (col.gameObject.tag == "Obstacle")
         Debug.Log("OnCollisionEnter2D");
+    	
+    	if (col.gameObject.tag == "Ground")
+    		isGrounded = true;
     }
     
     
@@ -67,7 +75,9 @@ public class Movement : MonoBehaviour
     {
     	canAnimate = true;
     	//movementAnimation.enabled = true;
-    	
+    	PlayerPrefs.SetInt("FisrtTouchRightButton" , 1);
+    	hand_GunButton.SetActive(true);
+    	hand_RightButton.SetActive(false);
     	transform.position+=new Vector3(speed * Time.deltaTime , 0 , 0 );
     	
     	isMovingRight = true;
@@ -107,7 +117,9 @@ public class Movement : MonoBehaviour
     
     
     
-    public void MoveUp()
+
+
+public void MoveUp()
     {
     	canAnimate = true;
 
@@ -118,19 +130,24 @@ public class Movement : MonoBehaviour
 
         if (isMovingRight)
         {
-            directionX = speed * 0.5f;       
+            directionX = speed * 0.3f;       
         }
         else if (isMovingLeft)
         {
-            directionX = -speed * 0.5f;
+            directionX = -speed * 0.3f;
 
         }
 
 
         Vector3 direction = new Vector3(directionX, (smoothJump * Time.deltaTime)+ smoothJump* 1.2f, 0);
         rb.velocity = direction;
+
         if(canJump == false) return;
     }
+
+    
+
+
     
     
     

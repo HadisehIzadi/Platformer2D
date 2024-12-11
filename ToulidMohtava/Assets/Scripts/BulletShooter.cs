@@ -4,42 +4,45 @@ using UnityEngine;
 
 public class BulletShooter : MonoBehaviour
 {
-	public GameObject bulletPrefab; 
+	public GameObject bulletPrefab;
+	
 	public Transform bulletSpawner;
 	public float bulletSpeed = 10f;
 	float scale;
 	
 	
-    // Start is called before the first frame update
-    void Start()
-    {
+	// Start is called before the first frame update
+	void Start()
+	{
         
-    }
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
+	// Update is called once per frame
+	void Update()
+	{
         
-    }
+	}
     
     
-     public void Shoot()
-    {
+	public void Shoot()
+	{
+		if (PlayerPrefs.GetInt("canShoot", 0) == 1) {
+			
 
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawner.position, bulletSpawner.rotation);
+			GameObject bullet = Instantiate(bulletPrefab, bulletSpawner.position, bulletSpawner.rotation);
 
 
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+			Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         
-        if(transform.localScale.x > 0 )
-        	scale = 1f;
-        else
-        	scale = -1f;
+			if (transform.localScale.x > 0)
+				scale = 1f;
+			else
+				scale = -1f;
         	
-        if (rb != null)
-        {
-        	rb.velocity = new Vector2(scale*bulletSpeed, 0);
-        }
-        Destroy(bullet, 1f);  
-    }
+			if (rb != null) {
+				rb.velocity = new Vector2(scale * bulletSpeed, 0);
+			}
+			Destroy(bullet, 1f);  
+		}
+	}
 }
