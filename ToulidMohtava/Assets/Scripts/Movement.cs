@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
 	 
 	 public GameObject hand_RightButton;
 	public GameObject hand_GunButton;
-	 
+	 public GameObject hint1;
     // Start is called before the first frame update
     void Start()
     {
@@ -78,6 +78,7 @@ public class Movement : MonoBehaviour
     	PlayerPrefs.SetInt("FisrtTouchRightButton" , 1);
     	hand_GunButton.SetActive(true);
     	hand_RightButton.SetActive(false);
+    	hint1.SetActive(false);
     	transform.position+=new Vector3(speed * Time.deltaTime , 0 , 0 );
     	
     	isMovingRight = true;
