@@ -136,3 +136,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloodParticleSystem: {fileID: 5302694196137935155, guid: 0adc14a57004e1148ad1d8487702f128, type: 3}
+  starsParticleSystem: {fileID: 0}

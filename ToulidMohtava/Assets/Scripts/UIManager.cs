@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
 	public GameObject pausePanel;
@@ -46,5 +46,12 @@ public class UIManager : MonoBehaviour
 	{
 		settingPanel.SetActive(true);
 		Time.timeScale = 0f;
+	}
+	
+	public void Restart()
+	{
+		Time.timeScale = 1f;
+		int levelNumber = PlayerPrefs.GetInt("levelNumber" , 1);
+		SceneManager.LoadScene(levelNumber -1 );
 	}
 }

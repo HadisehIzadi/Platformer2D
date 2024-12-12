@@ -24,6 +24,7 @@ public class LeftButton : MonoBehaviour,IUpdateSelectedHandler,IPointerDownHandl
         public void OnPointerUp(PointerEventData data)
         {
             isPressed = false;
-            player.canAnimate = false;
+           // player.canAnimate = false;
+            player.SetAnimator();
         }
 }

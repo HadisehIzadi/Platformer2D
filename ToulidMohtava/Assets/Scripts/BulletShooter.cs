@@ -10,17 +10,21 @@ public class BulletShooter : MonoBehaviour
 	public float bulletSpeed = 10f;
 	float scale;
 	public GameObject handHint_shoot;
+	int shootCount;
 	
 	
 	// Start is called before the first frame update
 	void Start()
 	{
-        
+		shootCount = 0 ;
+		
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
+		if(shootCount == 1 )
+			handHint_shoot.SetActive(false);
 //		if(PlayerPrefs.GetInt("FisrtShoot" , 0) == 1)
 //			handHint_shoot.SetActive(false);
         
@@ -29,10 +33,13 @@ public class BulletShooter : MonoBehaviour
     
 	public void Shoot()
 	{
+		shootCount++;
+		
+		handHint_shoot.SetActive(false);
 		
 		if (PlayerPrefs.GetInt("canShoot", 0) == 1) {
 			PlayerPrefs.SetInt("FisrtShoot" , 1);
-			handHint_shoot.SetActive(false);
+			
 			
 
 			GameObject bullet = Instantiate(bulletPrefab, bulletSpawner.position, bulletSpawner.rotation);

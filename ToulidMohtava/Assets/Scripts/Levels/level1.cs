@@ -19,6 +19,8 @@ public class level1 : MonoBehaviour
     	PlayerPrefs.SetInt("FisrtTouchRightButton" , 0);
     	PlayerPrefs.SetInt("FisrtShoot" , 0);
     	PlayerPrefs.SetInt("canShoot" , 0);
+    	PlayerPrefs.SetInt("levelNumber" , 1);
+    	PlayerPrefs.SetInt("score" , 0);
     }
 
     // Update is called once per frame
@@ -38,4 +40,6 @@ public class level1 : MonoBehaviour
     	
     	
     }
+    
+    
 }
