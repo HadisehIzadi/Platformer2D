@@ -31,6 +31,7 @@ public class UIManager : MonoBehaviour
 		Time.timeScale = 1f;
 		pausePanel.SetActive(false);
 		settingPanel.SetActive(false);
+		exitPanel.SetActive(false);
 	}
 	
 	

@@ -21,6 +21,8 @@ public class BulletShooter : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+//		if(PlayerPrefs.GetInt("FisrtShoot" , 0) == 1)
+//			handHint_shoot.SetActive(false);
         
 	}
     

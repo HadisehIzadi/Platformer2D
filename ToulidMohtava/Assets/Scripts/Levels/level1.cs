@@ -17,6 +17,8 @@ public class level1 : MonoBehaviour
     	hand_ShootButon.SetActive(false);
     	hand_RightButton.SetActive(true);
     	PlayerPrefs.SetInt("FisrtTouchRightButton" , 0);
+    	PlayerPrefs.SetInt("FisrtShoot" , 0);
+    	PlayerPrefs.SetInt("canShoot" , 0);
     }
 
     // Update is called once per frame
