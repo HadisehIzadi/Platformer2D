@@ -5,13 +5,14 @@ public class shootButton : MonoBehaviour,IUpdateSelectedHandler,IPointerDownHand
 {
     public bool isPressed;
     public BulletShooter bulletShooter;
+    public SoundManager soundManaer;
     
         // Start is called before the first frame update
         public void OnUpdateSelected(BaseEventData data)
         {
             if (isPressed)
             {
-            	bulletShooter.Shoot();
+            	bulletShooter.StartCoroutine("Shoot");
             
             }
         }
@@ -23,6 +24,7 @@ public class shootButton : MonoBehaviour,IUpdateSelectedHandler,IPointerDownHand
         public void OnPointerUp(PointerEventData data)
         {
             isPressed = false;
+            soundManaer.PlayAttackSound();
          //   player.canAnimate = false;
         }
 }

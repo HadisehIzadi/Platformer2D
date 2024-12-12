@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class level1 : MonoBehaviour
 {
 	public GameObject hand_RightButton;
@@ -10,6 +11,10 @@ public class level1 : MonoBehaviour
 	
 	public GameObject Player;
 	public GameObject Enemy;
+	
+	public float timeLeft;
+	
+	public TMP_Text timer;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +36,13 @@ public class level1 : MonoBehaviour
         if(distanceX <= 10f)
         	ShowHintShoot();
     	}
+    	
+		timeLeft -= Time.deltaTime;
+		if (timeLeft < 0) {
+			Player.GetComponent<Movement>().Die();
+		}
+		
+	timer.SetText(((int)timeLeft).ToString());
 
     }
     

@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour
 	public ParticleSystem bloodParticleSystem;
 	public ParticleSystem starsParticleSystem;
 	
+	public GameObject scorePlus2;
+	public GameObject scoreMinus2;
 	bool isDied;
 	int shotCount;
 	
@@ -15,6 +17,8 @@ public class Enemy : MonoBehaviour
     {
     	isDied = false;
     	shotCount = 0;
+    	scorePlus2.SetActive(false);
+    	scoreMinus2.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +32,7 @@ public class Enemy : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
     	if (col.gameObject.tag == "Bullet"){
+    		scorePlus2.SetActive(true);
     		shotCount++;
 			isDied = true;
 			Debug.Log("OnCollisionEnter2D");
@@ -39,7 +44,7 @@ public class Enemy : MonoBehaviour
 
 
 
-			Destroy(gameObject, 0.1f);
+			Destroy(gameObject, 0.3f);
      
 
 
@@ -49,6 +54,7 @@ public class Enemy : MonoBehaviour
     	
     	if(col.gameObject.tag == "Player")
     	{
+    		scoreMinus2.SetActive(true);
     		if(PlayerPrefs.GetInt("score" , 0) != 0)
     			PlayerPrefs.SetInt("score" ,  PlayerPrefs.GetInt("score" , 0)-2);
     		

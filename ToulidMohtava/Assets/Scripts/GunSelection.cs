@@ -7,6 +7,7 @@ public class GunSelection : MonoBehaviour
 {
 	public GameObject[] weaponsOnBag;
 	public GameObject shootButton;
+	public SoundManager soundManaer;
 	//public GameObject FingerHint;
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class GunSelection : MonoBehaviour
     	PlayerPrefs.SetInt("GunNumber" , 1);
     	this.gameObject.SetActive(false);
     	weaponsOnBag[0].SetActive(true);
+    	soundManaer.PlayCatchSound();
     //	FingerHint.SetActive(false);
     }
     

@@ -7,7 +7,7 @@ public class UIManager : MonoBehaviour
 	public GameObject pausePanel;
 	public GameObject exitPanel;
 	public GameObject settingPanel;
-	
+	public GameObject winningPanel;
 	// Start is called before the first frame update
 	void Start()
 	{
@@ -53,5 +53,13 @@ public class UIManager : MonoBehaviour
 		Time.timeScale = 1f;
 		int levelNumber = PlayerPrefs.GetInt("levelNumber" , 1);
 		SceneManager.LoadScene(levelNumber -1 );
+	}
+	 
+	
+	IEnumerator Win()
+	{
+		yield return new WaitForSeconds(0.5f);
+	//	Time.timeScale = 0f;
+		winningPanel.SetActive(true);
 	}
 }

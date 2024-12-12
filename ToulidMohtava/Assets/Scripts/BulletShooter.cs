@@ -31,10 +31,10 @@ public class BulletShooter : MonoBehaviour
 	}
     
     
-	public void Shoot()
+	IEnumerator Shoot()
 	{
 		shootCount++;
-		
+		yield return new WaitForSeconds(0.2f);
 		handHint_shoot.SetActive(false);
 		
 		if (PlayerPrefs.GetInt("canShoot", 0) == 1) {

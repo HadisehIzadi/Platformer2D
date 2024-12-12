@@ -30,14 +30,29 @@ public class Movement : MonoBehaviour
 	public TMP_Text coins;
 	 
 	public int score = 0;
+	int playgameOverSound = 0 ;
 	 
 	public GameObject DiePanel;
+	
+	public SoundManager soundManaer;
+	public UIManager uiManager;
+	
+	
+
+	public GameObject closedDoor;
+	public Sprite openDorSprite;
+	
+	
+	
+	
 	// Start is called before the first frame update
 	void Start()
 	{
 		//movementAnimation.enabled = false;
 		rb = this.GetComponent<Rigidbody2D>();
 		Time.timeScale = 1f;
+		
+		playgameOverSound = 0;
 	}
 
 	// Update is called once per frame
@@ -52,14 +67,19 @@ public class Movement : MonoBehaviour
 //		else
 //			movementAnimation.enabled = true;
     	
-		if (transform.position.y > 10)
+		if (transform.position.y > 30)
 			canJump = false;
 		else
 			canJump = true;
     	
     	
-		if (transform.position.y <= -10f)
+		if (transform.position.y <= -10f){
 			Die();
+			playgameOverSound++;
+		}
+		
+		if(playgameOverSound == 1 )
+			soundManaer.playGameOverSound();
     	
     	
 
@@ -78,12 +98,21 @@ public class Movement : MonoBehaviour
 			isGrounded = true;
     	
 		if (col.gameObject.tag == "Juwley") {
+			soundManaer.playScoreSound();
 			score++;
 			PlayerPrefs.SetInt("score" , score);
 			Debug.Log("Score : " + score);
 			Destroy(col.gameObject, 0.05f);
 			
-			;
+			
+		}
+		
+		
+		if (col.gameObject.tag == "Finish")
+		{
+			closedDoor.GetComponent<SpriteRenderer>().sprite = openDorSprite;
+			uiManager.StartCoroutine("Win");
+			// set active panel winning 
 		}
 	}
     
@@ -93,6 +122,7 @@ public class Movement : MonoBehaviour
     
 	public void MoveRight()
 	{
+		//soundManaer.playWalkSound();
 		canAnimate = true;
 		//movementAnimation.enabled = true;
 		movementAnimation.runtimeAnimatorController = walkController;
@@ -121,6 +151,7 @@ public class Movement : MonoBehaviour
     
 	public void MoveLeft()
 	{
+		//soundManaer.playWalkSound();
 		canAnimate = true;
 		transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
 		movementAnimation.runtimeAnimatorController = walkController;
@@ -219,8 +250,9 @@ private void EnableJump()
 
 
 
-	void Die()
+	public void Die()
 	{
+		
 		Time.timeScale = 0f;
 		DiePanel.SetActive(true);
 		Debug.Log("Player died");
